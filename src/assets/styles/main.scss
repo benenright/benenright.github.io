@@ -851,7 +851,7 @@ label {
   @include media-query(m) {
     position: fixed;
     height: 100%;
-    width: 300px;
+    width: 240px;
     background-color: $white;
     border-right: 1px solid $grey-pastel;
     overflow: scroll;
