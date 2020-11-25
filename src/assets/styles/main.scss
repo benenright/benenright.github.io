@@ -855,12 +855,12 @@ label {
     background-color: $white;
     border-right: 1px solid $grey-pastel;
     overflow: scroll;
-    padding: 0 0 100px 0;
+    padding: 40px 0 100px 0;
   }
 }
 
 .sidebar-group {
-  margin-top: 40px;
+  margin: 0 0 40px 0;
 }
 
 .sidebar-heading {
@@ -885,10 +885,10 @@ label {
     display: flex;
     align-items: center;
     color: $blue-dark;
-    text-transform: uppercase;
+    //text-transform: uppercase;
     font-weight: 400;
-    font-size: 12px;
-    letter-spacing: 0.08em;
+    font-size: 13px;
+    //letter-spacing: 0.08em;
     position: relative;
     background: $white;
     &:after {
