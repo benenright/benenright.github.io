@@ -1,0 +1,70 @@
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+
+// Clove
+$blue-dark: #011f5b;
+$red-pastel: #FF6767;
+$grey-pastel: #DDE0ED;
+$grey-light: #F2F4FA;
+
+
+// Colours - light to dark
+$white: #ffffff;
+$grey0: #F6F6F6;
+$grey1: #E0E0E0;
+$grey2: #bbbbbb;
+$grey3: #6F6F6F;
+$grey4: #333333;
+$teal: #14B1AF;
+$teal-dk: #246060;
+$teal-lt: #E8F7F7;
+$help: $teal;
+
+$help-alt: #1489B1;
+
+// Sizes
+$border-radius: 3px;
+
+// Typography
+$font--primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+$font--secondary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+
+$base-font-size: 16px;
+$base-line-height: 25px;
+
+// Base sizes
+$font-sizes: (
+    xxl:        38px,
+    xl:         30px,
+    l:          24px,
+    m:          18px,
+    s:          14px,
+    xs:         12px
+);
+
+// Breakpoints
+$breakpoints: (
+    'xl'        '(min-width: 1440px)',
+    'l'         '(min-width: 1100px)',
+    'm'         '(min-width: 900px)',
+    's'         '(min-width: 800px)',
+    'xs'        '(min-width: 650px)'
+);
+
+// Transitions
+$default-transition-speed: 300ms;
+
+// Z-index
+$z-alpha:       7;
+$z-beta:        6;
+$z-gamma:       5;
+$z-delta:       4;
+$z-epsilon:     3;
+$z-zeta:        2;
+$z-milli:       1;
+$z-base:        0;
+$z-hidden:     -1;
+$z-giga:     9999;
+$z-mega:      110;
+$z-kilo:      109;

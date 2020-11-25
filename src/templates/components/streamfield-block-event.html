@@ -1,0 +1,57 @@
+<div class="streamfield-block-wrapper">
+
+    <div class="streamfield-block sb-event" draggable="true">
+        <div class="type-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+              <symbol id="a" viewBox="-21.087 -31.266 42.17 72.87">
+                <path stroke="#000" stroke-width="5" stroke-miterlimit="10" d="M6.373 39.104h5.21c0-3.87 3.13-7 7-7v-53.87c-3.87 0-7-3.14-7-7h-5.21M-6.377-28.766h-5.21c0 3.86-3.13 7-7 7v53.87c3.87 0 7 3.13 7 7h5.21"/>
+                <path fill="none" stroke="#000" stroke-width="5" stroke-miterlimit="10" d="M2.373 39.104h-4.75M2.373-28.766h-4.75"/>
+                <g stroke="#000" stroke-width=".9" stroke-miterlimit="10">
+                  <path d="M-9.901-10.118a1.8 1.8 0 1 0-3.6 0 1.8 1.8 0 0 0 3.6 0zM-2.101-10.118a1.8 1.8 0 1 0-3.6 0 1.8 1.8 0 0 0 3.6 0zM5.699-10.118a1.8 1.8 0 1 0-3.6 0 1.8 1.8 0 0 0 3.6 0zM13.499-10.118a1.8 1.8 0 1 0-3.6 0 1.8 1.8 0 0 0 3.6 0z"/>
+                </g>
+              </symbol>
+              <path fill="none" d="M16.728 88.786h66.544a4.609 4.609 0 0 0 4.604-4.604V37.94H12.124v46.241a4.61 4.61 0 0 0 4.604 4.605zm50.91-44.88h12.969v10.375H67.638V43.906zm0 13.488h12.969V67.77H67.638V57.394zm0 13.489h12.969v10.375H67.638V70.883zM51.556 43.906h12.969v10.375H51.556V43.906zm0 13.488h12.969V67.77H51.556V57.394zm0 13.489h12.969v10.375H51.556V70.883zM35.474 43.906h12.969v10.375H35.474V43.906zm0 13.488h12.969V67.77H35.474V57.394zm0 13.489h12.969v10.375H35.474V70.883zM19.392 43.906h12.969v10.375H19.392V43.906zm0 13.488h12.969V67.77H19.392V57.394zm0 13.489h12.969v10.375H19.392V70.883z"/>
+              <path d="M16.728 95h66.544c5.965 0 10.818-4.853 10.818-10.818V24.9c0-5.965-4.853-10.818-10.818-10.818h-.052v5.164a6.754 6.754 0 0 1-6.747 6.747h-.796a6.754 6.754 0 0 1-6.747-6.747v-5.163H31.069v5.164a6.754 6.754 0 0 1-6.747 6.747h-.796a6.754 6.754 0 0 1-6.747-6.747v-5.164h-.052c-5.965 0-10.818 4.853-10.818 10.818v59.281C5.91 90.147 10.763 95 16.728 95zm-4.604-57.06h75.752v46.241a4.609 4.609 0 0 1-4.604 4.604H16.728a4.609 4.609 0 0 1-4.604-4.604V37.94z"/>
+              <path d="M19.392 43.906h12.969v10.375H19.392zM35.474 43.906h12.969v10.375H35.474zM51.556 43.906h12.969v10.375H51.556zM67.638 43.906h12.969v10.375H67.638zM19.392 57.394h12.969v10.375H19.392zM35.474 57.394h12.969v10.375H35.474zM51.556 57.394h12.969v10.375H51.556zM67.638 57.394h12.969v10.375H67.638zM19.392 70.883h12.969v10.375H19.392zM35.474 70.883h12.969v10.375H35.474zM51.556 70.883h12.969v10.375H51.556zM67.638 70.883h12.969v10.375H67.638zM23.526 23.096h.796a3.854 3.854 0 0 0 3.849-3.849V8.849A3.853 3.853 0 0 0 24.322 5h-.796a3.854 3.854 0 0 0-3.849 3.849v10.398a3.854 3.854 0 0 0 3.849 3.849zM75.677 23.096h.796a3.854 3.854 0 0 0 3.849-3.849V8.849A3.854 3.854 0 0 0 76.473 5h-.796a3.854 3.854 0 0 0-3.849 3.849v10.398a3.854 3.854 0 0 0 3.849 3.849z"/>
+            </svg>
+        </div>
+        <div class="type-name">Event</div>
+        <div class="actions">
+            <img src="../assets/images/actions.png" alt="actions">
+        </div>
+
+        <div class="streamfield-block-content">
+            <div class="field-group-short">
+                <div class="label-wrapper">
+                    <label>From</label>
+                    {{> field-help}}
+                </div>
+                <input type="text" name="name" placeholder="Enter start date" value="04-05-2018">
+            </div>
+            <div class="field-group-short">
+                <div class="label-wrapper">
+                    <label>Until</label>
+                    {{> field-help}}
+                </div>
+                <input type="text" name="name" placeholder="Enter end date" value="06-05-2018">
+            </div>
+
+            <div class="streamfield nested">
+                {{> streamfield-nested-heading}}
+                {{> streamfield-block-img}}
+                {{> streamfield-block-img}}
+            </div>
+
+        </div>
+
+        <div class="abstract">04-05-2018 - 06-05-2018</div>
+
+        {{> help}}
+
+    </div>
+
+    {{> add}}
+    {{> streamfield-menu}}
+
+</div>
+

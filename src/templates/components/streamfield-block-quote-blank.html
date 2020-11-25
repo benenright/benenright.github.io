@@ -1,0 +1,66 @@
+<div class="streamfield-block-wrapper">
+
+    <div class="streamfield-block sb-event" draggable="true">
+        <div class="type-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+              <path d="M43.5 80.4s3.4 0 3.4-3.4v-5.1c0-3.4-3.4-3.4-3.4-3.4-8.8-.6-16.3-6.1-19.9-13.7H35c4.7 0 8.5-3.8 8.5-8.5V29.1c0-4.7-3.8-8.5-8.5-8.5H17.9c-4.7 0-8.5 3.8-8.5 8.5v17.1c0 18.9 15.2 34.2 34.1 34.2zm42.7 0s3.4 0 3.4-3.4v-5.1c0-3.4-3.4-3.4-3.4-3.4-8.8-.6-16.3-6.1-19.9-13.7h11.3c4.7 0 8.5-3.8 8.5-8.5V29.1c0-4.7-3.8-8.5-8.5-8.5h-17c-4.7 0-8.5 3.8-8.5 8.5v17.1c0 18.9 15.3 34.2 34.1 34.2z" fill-rule="evenodd" clip-rule="evenodd"/>
+            </svg>
+        </div>
+        <div class="type-name">Quote</div>
+        <div class="actions">
+            <img src="../assets/images/actions.png" alt="actions">
+        </div>
+
+        <div class="streamfield-block-content">
+            <div class="field-group-textarea">
+                <div class="label-wrapper">
+                    <label>Quote text</label>
+                    {{> field-help}}
+                </div>
+                <textarea class="text" rows="2" placeholder="Enter the quote here"></textarea>
+            </div>
+            <div class="field-group">
+                <div class="label-wrapper">
+                    <label>Person name</label>
+                    {{> field-help}}
+                </div>
+                <input type="text" name="name" placeholder="Person name">
+            </div>
+            <div class="field-group">
+                <div class="label-wrapper">
+                    <label>Person descriptor</label>
+                    {{> field-help}}
+                </div>
+                <input type="text" name="name" placeholder="Person descriptor">
+            </div>
+            <div class="field-group">
+                <div class="label-wrapper">
+                    <label>Image</label>
+                    {{> field-help}}
+                </div>
+                <a href="#" class="btn btn-with-icon">
+                    <div class="btn-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63.67 52.13">
+                          <g data-name="Layer 2">
+                            <path d="M58.55 52.13H5.13A5.13 5.13 0 0 1 0 47V5.13A5.13 5.13 0 0 1 5.13 0h53.42a5.13 5.13 0 0 1 5.13 5.13V47a5.13 5.13 0 0 1-5.13 5.13zM5.13 4A1.13 1.13 0 0 0 4 5.13V47a1.13 1.13 0 0 0 1.13 1.13h53.42A1.13 1.13 0 0 0 59.67 47V5.13A1.13 1.13 0 0 0 58.55 4z"/>
+                            <path d="M12.08 43.46h39.51A1.69 1.69 0 0 0 53 40.77l-5.45-7.4a1.69 1.69 0 0 0-2.55-.22l-5.6 5.33-13-17.65a1.69 1.69 0 0 0-2.78.08l-13 19.94a1.69 1.69 0 0 0 1.46 2.61z"/>
+                            <circle cx="44.13" cy="15.12" r="5.93"/>
+                          </g>
+                        </svg>
+                    </div>
+                    <div class="btn-text">Choose an image</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="abstract">Enter quote</div>
+
+        {{> help}}
+
+    </div>
+
+    {{> add}}
+    {{> streamfield-menu}}
+
+</div>
+

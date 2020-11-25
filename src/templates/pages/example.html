@@ -1,0 +1,49 @@
+---
+title: Example Page title
+quote: I am some imported data (from this page)
+---
+
+<div class="example-page">
+    
+    <h1>Example page</h1>
+
+    <div class="example-page__wrapper">
+        <div class="example-page__block">
+            <p>Include a component:</p>
+            {{> button}}
+        </div>
+
+        <div class="example-page__block">
+            <p>Import some data 'inline' from this page:</p>
+            <code>{{quote}}</code>
+        </div>
+
+        <div class="example-page__block">
+            <p>Import some simple data from a data file:</p>
+            <code>{{example.welcome}}</code>
+        </div>
+
+        <div class="example-page__block">
+            <p>Import and loop over some data:</p>
+            <ul>
+            {{#each example.list}}
+                <li>{{this}}</li>
+            {{/each}}
+            </ul>
+        </div>
+
+        <div class="example-page__block">
+            <p>Use <code>if</code>:</p>
+            {{#if example.name}}
+                <p>{{example.name.firstName}} {{example.name.lastName}}</p>
+            {{/if}}
+        </div>
+
+        <div class="example-page__block">
+            <p>Use <code>with</code> to pass parameter:</p>
+            {{#with example.name}}
+                <p>{{firstName}} {{lastName}}</p>
+            {{/with}}
+        </div>
+    </div>
+</div>
