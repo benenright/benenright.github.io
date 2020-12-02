@@ -38,7 +38,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: $grey4;
-  //background-color: $grey0;
+
+  background-color: #5DCFC1;
 }
 
 .sidebar {
@@ -865,7 +866,7 @@ label {
 
 .sidebar-heading {
   display: block;
-  font-family: 'Gentium Basic', serif;
+  font-family: 'Gentium Book Basic', serif;
   font-weight: 700;
   font-size: 22px;
   color: $blue-dark;
@@ -919,6 +920,58 @@ label {
   }
 }
 
+.storybook-main {
+  padding: 100px 100px 0 340px;
+}
+
+.heading-1 {
+  display: block;
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: 700;
+  font-size: 90px;
+  color: $blue-dark;
+  margin: 0 0 10px 40px;
+  letter-spacing: -0.01em;
+}
+
+.santas-islands {
+  height: 100vh;
+  width: 100vw;
+  //background-image: url("../images/santas-islands.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .tom {
+    display: block;
+    width: 20vw;
+    height: 40vh;
+    position: absolute;
+    top: 5vh;
+    left: 8vw;
+    z-index: 10;
+  }
+  .olly {
+    display: block;
+    width: 20vw;
+    height: 40vh;
+    position: absolute;
+    top: 60vh;
+    left: 3vw;
+    z-index: 10;
+  }
+  .rudolph {
+    display: block;
+    width: 20vw;
+    height: 40vh;
+    position: absolute;
+    top: 70vh;
+    left: 28vw;
+    z-index: 10;
+  }
+}
 
 
 
